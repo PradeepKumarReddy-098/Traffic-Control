@@ -16,6 +16,6 @@ Project Deployement Link (https://66e914ee8fa9749d7f543912--dynamic-starship-6f4
 - run npm start
 - Open your web browser and navigate to http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: latest version of Node should be need. Use npx create-react-app to create react-app**
 
 

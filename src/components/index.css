@@ -1,0 +1,76 @@
+.traffic-light-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.traffic-light{
+  width:300px;
+  background-color: rgb(27, 26, 26);
+  border-radius: 20%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 2px;
+    background-color: rgb(88, 57, 57);
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .on {
+    box-shadow: 0 0 10px rgba(126, 109, 109, 0.5);
+  }
+
+  .off{
+    box-shadow: 0 0 10px rgba(234, 230, 230, 0.5);
+  }
+
+  .pedstrian-btn{
+    background-color: red;
+    padding:10px;
+    color:#fff;
+    margin-top: 10px;
+  }
+
+  p{
+    color:#fff;
+  }
+
+  .blinking-background {
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      background-color: rgb(240, 143, 143);
+    }
+    50% {
+      background-color: transparent;
+    }
+    100% {
+      background-color: rgb(240, 143, 143);
+    }
+  }

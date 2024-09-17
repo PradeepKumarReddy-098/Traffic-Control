@@ -1,6 +1,6 @@
 # Traffic Control
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Deployement Link (https://66e914ee8fa9749d7f543912--dynamic-starship-6f44b6.netlify.app/).
 
 ### Functionality
 
@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Installation
 - Clone the repository
-- Navigate to the project directory  [ex: cd my-app ]
+- Navigate to the project directory  [example: cd my-app]
 - Install dependencies using npm install.
 - run npm start
 - Open your web browser and navigate to http://localhost:3000
